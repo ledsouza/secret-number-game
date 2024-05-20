@@ -42,6 +42,7 @@ function transcriptValidation(resultTranscription) {
     document.body.innerHTML = `
         <h2>You got it!</h2>
         <h3>The secret number is ${secretNumber}</h3>
+        <div><button id='replay' class='btn-replay'>Play again</button></div>
       `;
   }
 

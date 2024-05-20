@@ -8,6 +8,12 @@ const elementMaxValue = document.getElementById("maxValue");
 
 setMinMaxValues();
 
+document.body.addEventListener("click", (event) => {
+  if (event.target.id === "replay") {
+    window.location.reload();
+  }
+});
+
 function setMinMaxValues() {
   elementMinValue.innerHTML = minValue;
   elementMaxValue.innerHTML = maxValue;
