@@ -26,6 +26,10 @@ recognition.addEventListener("result", (event) => {
   transcriptValidation(resultTranscription);
 });
 
+recognition.addEventListener("end", () => {
+  recognition.start();
+});
+
 function createBoxResult(transcription) {
   const div = document.createElement("div");
   div.innerHTML = "You said";
