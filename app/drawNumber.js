@@ -2,8 +2,8 @@ const minValue = 1;
 const maxValue = 100;
 const randomNumber = getRandomNumber(minValue, maxValue);
 
-const elementMinValue = document.getElementById("min-value");
-const elementMaxValue = document.getElementById("max-value");
+const elementMinValue = document.getElementById("minValue");
+const elementMaxValue = document.getElementById("maxValue");
 
 setMinMaxValues();
 

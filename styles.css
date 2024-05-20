@@ -28,6 +28,17 @@ h3 {
   font-size: 2.5rem;
 }
 
+#startButton {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 15vw;
+  padding: auto;
+  margin: 10px;
+  cursor: pointer;
+}
+
 .message {
   font-size: 1.5rem;
   margin: 15px;
