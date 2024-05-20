@@ -1,6 +1,7 @@
 const minValue = 1;
 const maxValue = 100;
-const randomNumber = getRandomNumber(minValue, maxValue);
+const secretNumber = getRandomNumber(minValue, maxValue);
+console.log("🚀 ~ secretNumber:", secretNumber);
 
 const elementMinValue = document.getElementById("minValue");
 const elementMaxValue = document.getElementById("maxValue");

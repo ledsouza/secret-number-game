@@ -23,6 +23,7 @@ recognition.addEventListener("result", (event) => {
     const [div, span] = createBoxResult(resultTranscription);
     elementGuess.append(div, span);
   }
+  transcriptValidation(resultTranscription);
 });
 
 function createBoxResult(transcription) {
